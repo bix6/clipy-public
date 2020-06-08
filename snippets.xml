@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>dispatch 2/5/19</title>
+		<snippets>
+			<snippet>
+				<title>customer service slack</title>
+				<content>*Market:* 
+*Order number:*
+*Name of customer:* 
+*Time Notified:* 
+*Driver:* 
+*Canceled?*
+*Issue:*
+*Customer response?*
+*Notes:*
+				</content>
+			</snippet>
+			<snippet>
+				<title>GN: 1+ fills, 1+ locked flap</title>
+				<content>Good evening, this is $NAME$ with Filld. NUMBER out of NUMBER vehicles were filled successfully! Your CAR_TYPE couldn't be filled due to a locked gas flap. Thank you for being a customer! Concerns? Please contact FILLD_SUPPORT_EMAIL</content>
+			</snippet>
+			<snippet>
+				<title>GN: no cars on site</title>
+				<content>Good evening, this is $NAME$ with Filld. Your order for the CAR_TYPE has been canceled as TODO_it/they was/were not present at the delivery location. Concerns? Please contact FILLD_SUPPORT_EMAIL</content>
+			</snippet>
+			<snippet>
+				<title>GN: 1+ locked flaps, 1+ car not on site</title>
+				<content>Good evening, this is $NAME$ with Filld. Your orders have been canceled. The following vehicles had a closed gas flap: VEHICLE_LIST. The rest were missing from the delivery location. Concerns? Please contact FILLD_SUPPORT_EMAIL</content>
+			</snippet>
+			<snippet>
+				<title>how to add a note</title>
+				<content>You can add a note to your order indicating where your car is parked when you place your order. To do so, text "Note" followed by your message to our ordering line: FILLD_PHONE_NUMBER.</content>
+			</snippet>
+			<snippet>
+				<title>how to remove a car</title>
+				<content>You can remove any cars that you’d no longer like to be included in our service by updating your account settings at https://filld.com/gasdelivered/</content>
+			</snippet>
+			<snippet>
+				<title>parked in structure</title>
+				<content>Hello, this is $NAME$ with Filld! Unfortunately, we cannot fill your vehicle as we no longer deliver fuel in, on, or under most structures. If you would like service please move your vehicle to an accessible location and place a new order. Our apologies for any inconvenience. If you need any further information please free to reach out to FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>Parkland: confirm car</title>
+				<content>Good morning, this is $NAME$ with Filld! Will you please confirm which car(s) you would like fuel delivered to this morning? 
+A) CAR_ONE
+B) CAR_TWO
+				</content>
+			</snippet>
+			<snippet>
+				<title>unforeseen circumstances</title>
+				<content>Hello, this is $NAME$ with Filld! We regret to inform you we are unable to fulfill your order this evening due to unforeseen circumstances. We’ve gone ahead and credited your account with $15-off your next order. Our apologies for any inconvenience! If you have any further questions, please reach out to FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>vehicle in notes</title>
+				<content>Hello, this is $NAME$ with Filld! Our apologies for any inconvenience but we cannot fill up vehicles that are added to the notes of an order. You will need to place an individual order for each vehicle you’d like filled. If you have any concerns about delivery options, feel free to reach out to FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>specific time requested</title>
+				<content>Hello, this is $NAME$ with Filld! Unfortunately, we are unable to accomodate a specific delivery time other than to let you know it will be within the confines of your order time window. Our apologies for any inconvenience. If you have any concerns about delivery options, feel free to reach out to FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>late text - 1 hour</title>
+				<content>Hello, this is $NAME$ with Filld! Due to unforeseen circumstances, your fuel delivery will be late. Our driver is en route and should be at your vehicle within the next 60 minutes. We&apos;ve credited your account with a waived delivery fee on your next order. If you&apos;d like to cancel service today, please do so in the app or by responding to this text with &quot;Cancel.&quot; Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>late text - 2 hour</title>
+				<content>Hello, this is $NAME$ with Filld! Due to unforeseen circumstances, your fuel delivery will be late. Our driver is en route and should be at your vehicle within the next 120 minutes. Once the delivery is complete we&apos;ll refund the cost of your delivery fee. We&apos;ve also credited your account with a waived delivery fee on your next order. If you&apos;d like to cancel service today, please do so in the app or by responding to this text with &quot;Cancel.&quot; Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>promo abuse - 1st time</title>
+				<content>Hello, this is $NAME$ with Filld! Our records indicate you have an order for today that cannot be filled due to having another 1st-time customer promo applied to the same vehicle. Please resubmit an order using your other account. If you have any further questions or believe this cancelation was an accident, please reach out to FILLD_SUPPORT_EMAIL Thank you!</content>
+			</snippet>
+			<snippet>
+				<title>promo abuse - same promos</title>
+				<content>Hello, this is $NAME$ with Filld! Our records indicate you have an order for today that cannot be filled due to having the same promos applied with multiple accounts. Please resubmit an order using your other account. If you have further questions please contact FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>stanford</title>
+				<content>Hello, this is $NAME$ with Filld! We regret to inform you we are unable to fulfill your order today as management has asked us not to bring our trucks onto Stanford property. If you would like any future fill-ups on Stanford land, please discuss permissions with the Asset Management Dept. Our apologies for any inconvenience! If you need any further information from us, please contact FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+			<snippet>
+				<title>holiday</title>
+				<content>Hello, this is $NAME$ with Filld! We regret to inform you we are unable to fulfill your order this evening due to the holiday. We&apos;ve gone ahead and credited your account with a waived delivery fee and $10-off your next order. Our apologies for any inconvenience! If you have any further questions, please reach out to FILLD_SUPPORT_EMAIL Thank you for choosing Filld!</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
